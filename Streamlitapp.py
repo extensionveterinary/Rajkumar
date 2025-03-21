@@ -54,7 +54,7 @@ if st.session_state.page == "home":
 # Upload Image Page
 elif st.session_state.page == "upload":
     st.title("📷 Upload Image")
-    st.file_uploader()
+    st.file_uploader("Upload Image")
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
     if uploaded_file:
         st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
