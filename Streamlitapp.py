@@ -57,7 +57,7 @@ elif st.session_state.page == "upload":
     st.file_uploader()
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
     if uploaded_file:
-        st.image(uploaded_file, caption="Uploaded Image")
+        st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
         st.session_state["uploaded_image"] = uploaded_file
         st.success("Image uploaded successfully! Click 'Prediction' to see the result.")
 
