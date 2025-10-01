@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dr. Raj Kumar Patel — Scientist | Livestock &amp; Animal Husbandry</title>
+  <meta name="description" content="Profile, publications and training materials of Dr. Raj Kumar Patel — livestock scientist from Madhya Pradesh, India.">
+  <style>
+    :root{--bg:#f7fafc;--card:#ffffff;--accent:#0f6ab4;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:#0f1724;line-height:1.45}
+    .site{max-width:1100px;margin:28px auto;padding:18px}
+    .topbar{display:flex;align-items:center;gap:18px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#4bc0ff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav{margin-left:auto}
+    nav a{margin-left:12px;text-decoration:none;color:var(--accent);font-weight:600}
+    header.card{display:flex;gap:20px;padding:20px;border-radius:12px;background:var(--card);box-shadow:0 8px 24px rgba(15,22,36,0.06);align-items:center}
+    .hero{flex:1}
+    h1{margin:0;font-size:22px}
+    .sub{color:var(--muted);margin-top:6px}
+    .actions{margin-top:12px}
+    .btn{display:inline-block;padding:8px 14px;border-radius:8px;border:1px solid var(--accent);color:var(--accent);text-decoration:none;font-weight:600;margin-right:8px}
+
+    .grid{display:grid;grid-template-columns:2fr 1fr;gap:20px;margin-top:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,22,36,0.04)}
+    h2{margin-top:0}
+    .meta-list{list-style:none;padding:0;margin:0}
+    .meta-list li{padding:6px 0;border-bottom:1px dashed #eef2f7}
+
+    table{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px}
+    table thead th{background:#f1f5f9;padding:10px;text-align:left}
+    table th,table td{padding:10px;border-bottom:1px solid #eef2f7}
+
+    aside .card{margin-bottom:14px}
+    .small{font-size:13px;color:var(--muted)}
+    ol{padding-left:18px}
+
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media(max-width:920px){.grid{grid-template-columns:1fr}.topbar{flex-wrap:wrap}nav{margin-left:0}}
+
+    /* smooth scroll & highlight */
+    .nav-active{background:linear-gradient(90deg,var(--accent),#4bc0ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+    /* utility */
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="site">
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo">RK</div>
+        <div>
+          <div style="font-weight:700">Dr. Raj Kumar Patel</div>
+          <div class="small muted">Scientist — Livestock &amp; Animal Husbandry</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#training">Training Materials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <header class="card" id="about">
+      <div class="hero">
+        <h1>Dr. Raj Kumar Patel</h1>
+        <div class="sub">Livestock Scientist — Expertise in reproductive health, field extension, and surgical procedures.</div>
+        <div class="actions">
+          <a class="btn" href="#publications">View Publications</a>
+          <a class="btn" href="#contact" onclick="openMail()">Contact</a>
+        </div>
+      </div>
+      <div style="width:220px;text-align:right">
+        <div class="card small" style="padding:12px;border-radius:10px">
+          <strong>Quick Facts</strong>
+          <ul class="meta-list" style="margin-top:8px">
+            <li><strong>Age:</strong> 35 years</li>
+            <li><strong>Nationality:</strong> Indian</li>
+            <li><strong>Domicile:</strong> Madhya Pradesh</li>
+            <li><strong>Languages:</strong> English, Hindi, Bagheli</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <h2>Personal Profile</h2>
+          <p class="small">Below is the summarized personal profile and academic/professional focus.</p>
+          <ul class="meta-list" style="margin-top:10px">
+            <li><strong>Name:</strong> Dr. Raj Kumar Patel</li>
+            <li><strong>Age:</strong> 35 years</li>
+            <li><strong>Gender:</strong> Male</li>
+            <li><strong>Languages Known:</strong> English, Hindi &amp; Bagheli</li>
+            <li><strong>Domicile:</strong> Madhya Pradesh</li>
+            <li><strong>Nationality:</strong> Indian</li>
+          </ul>
+        </section>
+
+        <section id="publications" class="card">
+          <h2>Scientific Publications — Research Papers &amp; Reviews</h2>
+          <p class="small">Selected peer-reviewed papers.</p>
+
+          <table>
+            <thead>
+              <tr><th>S. No.</th><th>Authors</th><th>Title</th><th>Journal / Year / Vol / Pages</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Patel, R.K.; Kadian, K.S.; Patel, N.</td>
+                <td>A Comparative Study on Productive and Reproductive Performance of Indigenous Cows Reared by KVK Trainee and Non-Trainee Dairy Farmers in Satna District of Madhya Pradesh.</td>
+                <td>International Journal of Agriculture Sciences (2015), 7(12):782-784.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Ahirwaar, M. K.; Singh, H. S.; Patel, R. K.</td>
+                <td>Knowledge level of dairy farmer about improved dairy farming practices in Rewa district of Madhya Pradesh.</td>
+                <td>International Journal of Agriculture Sciences (2016), 8(45):1909-1911.</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Patel, R.K.; Patel, N.</td>
+                <td>Surgical Removal of Eye Worm In Horses.</td>
+                <td>International Journal of Agriculture Sciences (2015), 7(11):741-742.</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Patel, R.K.; Patel, N.</td>
+                <td>Management of Rectal Prolapse in German Shepherd Pup by Perianal Purse String Suture.</td>
+                <td>International Journal of Agriculture Sciences (2015), 7(11):739-740.</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Patel, R. K.; Kadian, K.S.; Patel, N.; Singh, N.</td>
+                <td>Constraints experienced by Krishi Vigyan Kendra (KVK) trainee and non-trainee dairy farmers in training.</td>
+                <td>Journal of Livestock Science (2016), 7:84-88.</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Patel, R.K.; Patel, N.; Singh, N.; Singh, P.</td>
+                <td>Successful management of rectal prolapse in a mule (Equus mulus).</td>
+                <td>Journal of Livestock Science (2016), 7:35-37.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="training" class="card">
+          <h2>Training Materials &amp; Proceedings (Selected)</h2>
+          <p class="small">Materials developed for ASCAD / KVK trainings and extension events.</p>
+          <ol>
+            <li>Hari R., R.K.Patel and N. K.Kirar. (2018). Guidelines on Self Help Group/ Producer Company Formation and Functioning. (Training: Rewa, 29 Jan - 2 Feb, 2018). pp.11.</li>
+            <li>Hari R, R.K. Patel, A.K. Singh and J.S. Rajoriya. (2018). Use of information and communication technology in livestock reproduction sector. (ASCAD training: Rewa, 16-20 Feb, 2018). Pp. 86.</li>
+            <li>N. Kirar, R.K.Patel, Hari R and N.Patel. (2018). Extension based approaches for resolving reproductive disorders in livestock at Field. (ASCAD training: Rewa, 16-20 Feb, 2018). Pp. 71.</li>
+            <li>Hari R, R.K. Patel, J.S. Rajoriya, A.K. Singh, B.K. Ojha and N.K. Kirar. (2018). ICT for advancement of animal husbandry. (ASCAD training: Rewa, 22-26 Feb, 2018). Pp. 37.</li>
+            <li>R.K.Patel, N. Kirar, Hari R and N.Patel. (2018). Methodology organizing Dairy mela/ Animal Husbandry Camps. (ASCAD training: Rewa, 22-26 Feb, 2018). Pp.11.</li>
+            <li>...and other training proceedings (2018).</li>
+          </ol>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3>Contact</h3>
+          <p class="small">(Add full postal address, phone and email here)</p>
+          <p class="small">Email: <a href="mailto:dr.raj.k.patel@example.com">dr.raj.k.patel@example.com</a></p>
+          <p class="small">Phone: +91-XXXXXXXXXX</p>
+        </div>
+
+        <div class="card">
+          <h3>Skills &amp; Expertise</h3>
+          <ul class="meta-list">
+            <li>Livestock Management &amp; Reproductive Health</li>
+            <li>Field Extension &amp; Training (KVK / ASCAD)</li>
+            <li>Minor Surgical Procedures — Large &amp; Small Animals</li>
+            <li>Program Planning for Farmer Capacity Building</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Download CV</h3>
+          <p class="small">Click to download the resume as HTML (save page) or use Print to save as PDF.</p>
+          <p style="margin-top:8px"><a class="btn" href="#" onclick="window.print();return false;">Print / Save as PDF</a></p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div class="small muted">© Dr. Raj Kumar Patel — Prepared for professional profile and extension outreach.</div>
+    </footer>
+  </div>
+
+  <script>
+    // Smooth scroll for nav links
+    document.querySelectorAll('nav a, .btn[href^="#"]').forEach(a=>{
+      a.addEventListener('click', function(e){
+        const href=this.getAttribute('href');
+        if(href && href.startsWith('#')){
+          e.preventDefault();
+          const el=document.querySelector(href);
+          if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+        }
+      });
+    });
+
+    function openMail(){
+      window.location.href='mailto:dr.raj.k.patel@example.com?subject=Inquiry from website';
+    }
+  </script>
+</body>
+</html>
